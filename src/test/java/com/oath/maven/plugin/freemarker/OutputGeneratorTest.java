@@ -33,6 +33,7 @@ public class OutputGeneratorTest {
 	private Configuration config;
 	private Map<String, Object> dataModel = new HashMap<String,Object>();
 
+	@SuppressWarnings("unchecked")
 	@BeforeMethod
 	public void setupDataModel() {
 		dataModel.clear();

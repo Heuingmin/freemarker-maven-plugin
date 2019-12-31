@@ -11,7 +11,6 @@ import java.nio.file.FileVisitor;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Comparator;
-import java.util.Map;
 import java.util.Properties;
 
 import org.apache.maven.execution.MavenSession;
@@ -101,12 +100,11 @@ public class FreeMarkerMojoTest extends Assert {
 
       Configuration config;
       MavenSession capturedSession;
-      Map<String, OutputGeneratorPropertiesProvider> builders;
 
       GeneratingFileVisitor.create(
           config = withCapture(), 
           capturedSession = withCapture(), 
-          builders = withCapture()); times = 1;
+          withCapture()); times = 1;
 
       assertEquals("UTF-8", config.getDefaultEncoding());
       assertEquals(session, capturedSession);

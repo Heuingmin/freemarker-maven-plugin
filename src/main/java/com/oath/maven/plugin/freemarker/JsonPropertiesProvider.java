@@ -35,6 +35,7 @@ public class JsonPropertiesProvider implements OutputGeneratorPropertiesProvider
 		return new JsonPropertiesProvider(dataDir, templateDir, outputDir);
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public void providePropertiesFromFile(Path path, OutputGenerator.OutputGeneratorBuilder builder) {
 		File jsonDataFile = path.toFile();

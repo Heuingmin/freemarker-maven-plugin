@@ -3,14 +3,10 @@
 
 package com.oath.maven.plugin.freemarker;
 
-import com.google.gson.Gson;
-import com.google.gson.stream.JsonReader;
 import freemarker.cache.FileTemplateLoader;
 import freemarker.template.Configuration;
 import mockit.Expectations;
 import mockit.Mocked;
-import org.apache.maven.execution.MavenSession;
-import org.apache.maven.project.MavenProject;
 import org.assertj.core.api.Assertions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -18,12 +14,9 @@ import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Type;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.attribute.BasicFileAttributes;
 import java.util.*;
 
 import static junit.framework.Assert.assertEquals;

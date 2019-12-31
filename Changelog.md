@@ -4,6 +4,9 @@ Thanks for their great jobs. Purpose of the fork is to add some little features 
 * Publishing of artifacts on Maven Repository Central
 * Support for Eclipse M2E
 
+## 1.0.3 - 2019-12-31
+* Added compatibility to java 1.7
+
 ## 1.0.2 - 2019-12-31
 * Added m2e lifecycle metadata (support for eclipse M2E).
 * Organized imports.

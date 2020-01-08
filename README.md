@@ -40,7 +40,7 @@ Add the following snippet within the `<plugins>` tag of your pom.xml:
         <version>${freemarker-maven-plugin.version}</version>
         <configuration>
           <!-- Required. Specifies the compatibility version for template processing -->
-          <freeMarkerVersion>2.3.23</freeMarkerVersion>
+          <freeMarkerVersion>2.3.29</freeMarkerVersion>
         </configuration>
         <executions>
           <!-- If you want to generate files during other phases, just add more execution

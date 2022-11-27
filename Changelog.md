@@ -8,6 +8,7 @@ Thanks for their great jobs. Purpose of the fork is to add some little features 
 * Added parent pom [fj-bom](https://github.com/fugerit-org/fj-bom)
 * Updated libraries version
 * Updated freemarker version to 2.3.31
+* Minimum java version updated from 1.7 to 1.8
 
 ## 1.0.4 - 2020-01-08
 * Added support for apache freemarker version 2.3.29 (Ref. issue #1)

@@ -1,3 +1,9 @@
+# Before All
+
+This project is a fork of project :
+[https://github.com/fugerit-org/freemarker-maven-plugin](https://github.com/fugerit-org/freemarker-maven-plugin).  
+It is hoped to append new feature enabling it ability of creating multiple source files from one template file.It is not done yet.
+
 # Credits
 
 This is a fork of project : 
